@@ -10,16 +10,6 @@
 	font-style: italic;
 }
 
-#introtext {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: "Fjalla One", monospace;
-}
-
 .header {
   font-size:24px;
   font-family: ;
@@ -27,11 +17,11 @@
 
 h1 {
 
-  font-family: "Fjalla One", monospace
+  font-family: "Roboto Slab", serif;
 
 }
 
 h2 {
   text-transform: uppercase;
-  font-family: ;
+  font-family: Roboto, san-serif;
 }
