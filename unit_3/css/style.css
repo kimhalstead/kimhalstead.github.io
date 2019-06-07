@@ -3,7 +3,7 @@
 #topimage {
 	background-position: center;
   	background-repeat: no-repeat;
-  	background-size: contain;
+  	background-size: auto;
   	position: relative;
   	width: 100vw;
     height: 100vh;
