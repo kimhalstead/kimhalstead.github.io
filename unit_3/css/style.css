@@ -8,8 +8,9 @@ body {
   	background-repeat: no-repeat;
   	background-size: cover;
   	position: relative;
+  	height: 50%
 }
 
 #slogan {
-	color: red;
+	font-style: italic;
 }
