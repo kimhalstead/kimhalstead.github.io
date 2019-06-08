@@ -5,36 +5,36 @@ body {
 
 #slogan {
 	font-style: italic;
-  color: #000;
+  color: white;
 }
 
 .header-menu {
   font-size:24px;
   font-family: Roboto, san-serif;
-  color: black;
+  color: white;
 }
 
 #introtext {
   text-align: center;
-  color: black;
+  color: white;
 }
 
 h1 {
 
   font-family: "Roboto Slab", serif;
-  color: black;
+  color: white;
 
 }
 
 h2 {
   text-transform: uppercase;
   font-family: "Roboto", san-serif;
-  color: black;
+  color: white;
 }
 
 ul { 
   text-align: center; 
   list-style-type: none;
   font-family: "Open Sans", san-serif;
-  color: black;
+  color: white;
 } 
