@@ -1,7 +1,7 @@
-body {
+#topimage {
   background-image: url(images/herofilter.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #slogan {
