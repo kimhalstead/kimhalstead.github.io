@@ -2,7 +2,6 @@
 #topimage {
   background-size: auto;
 	background-position: relative;
-  background-repeat: no-repeat;
 }
 
 #slogan {
@@ -31,5 +30,6 @@ h2 {
 
 ul { 
   text-align: center; 
-  list-style-type: none; 
+  list-style-type: none;
+  font-family: "Open Sans", san-serif;
 } 
