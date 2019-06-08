@@ -1,8 +1,9 @@
 
 #topimage {
   height: 100vh;
-  background-size: auto;
+  background-size: cover;
 	background-position: relative;
+  background-repeat: no-repeat;
 }
 
 #slogan {
