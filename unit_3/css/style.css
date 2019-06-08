@@ -1,9 +1,8 @@
 
 #topimage {
-	background-position: center;
-  background-repeat: no-repeat;
   background-size: auto;
-  background-position: relative;
+	background-position: relative;
+  background-repeat: no-repeat;
 }
 
 #slogan {
