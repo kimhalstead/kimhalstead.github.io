@@ -33,8 +33,7 @@ h2 {
 }
 
 ul { 
-  text-align: center; 
-  list-style-type: none;
+  text-align: left; 
   font-family: "Open Sans", san-serif;
   color: white;
 } 
