@@ -1,7 +1,7 @@
-#topimage {
-  background-image: url(images/herofilter.jpg);
+body {
+  background: url("images/herofilter.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 #slogan {
