@@ -10,9 +10,9 @@
 	font-style: italic;
 }
 
-.header {
+.header-menu {
   font-size:24px;
-  font-family: ;
+  font-family: Roboto, san-serif;
 }
 
 h1 {
@@ -25,3 +25,8 @@ h2 {
   text-transform: uppercase;
   font-family: "Roboto", san-serif;
 }
+
+ul { 
+  text-align: center; 
+  list-style-type: none; 
+} 
