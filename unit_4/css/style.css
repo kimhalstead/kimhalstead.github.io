@@ -9,13 +9,14 @@ body {
 }
 
 #slogan {
+  font-family: "Roboto Slab", serif;
 	font-style: italic;
   font-size: 1em;
 }
 
 .header-menu {
-  font-size: 5em;
-  font-family: Roboto, san-serif;
+  font-size: 1.5em;
+  font-family: Roboto, Helvetica, san-serif;
 }
 
 #introtext {
@@ -41,7 +42,7 @@ ul {
 } 
 
 #quotebutton {
-  font-family: "Open Sans", san-serif;
+  font-family: "Roboto Slab", san-serif;
   text-transform: uppercase;
   font size: 1.25em;
 
