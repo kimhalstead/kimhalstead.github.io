@@ -4,13 +4,14 @@
 body {
   background-image: url("../images/herofilter.jpg");
   background-size: cover;
+  color: white;
   font-size: 16px;
 }
 
 #slogan {
   font-family: "Roboto Slab", serif;
 	font-style: italic;
-  font-size: 1em;
+  font-size: 10em;
 }
 
 .header-menu {
