@@ -1,0 +1,38 @@
+body {
+  background-image: url("../images/herofilter.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+.header-menu {
+  font-size:24px;
+  font-family: Roboto, san-serif;
+}
+
+#introtext {
+  text-align: center;
+}
+
+h1 {
+
+  font-family: "Roboto Slab", serif;
+
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Roboto", san-serif;
+}
+
+ul { 
+  text-align: left; 
+  font-family: "Open Sans", san-serif;
+} 
+
+p {
+  
+}
