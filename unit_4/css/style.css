@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab:400,700&display=swap');
-
+<div>
 body {
   background-image: url("../images/herofilter.jpg");
   background-size: cover;
@@ -50,3 +50,4 @@ ul {
 p {
   
 }
+</div>
