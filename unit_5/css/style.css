@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab:400,700');
+
+body {
+  background-image: url("../images/herofilter.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2em;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: Roboto, Helvetica, san-serif;
+  font size: 1.5em;
+}
+
+ul { 
+  text-align: left; 
+  font-family: "Open Sans", san-serif;
+  font-size: 1em;
+} 
+
+p {
+  
+}
+
+header {
+  background: #FFED74;
+}
+
+nav {
+  font-size: 1.5em;
+  font-family: Roboto, Helvetica, san-serif;
+  background: #E8C66A;
+}
+
+footer {
+  background: #FF957E;
+}
+
+#introtext {
+  text-align: center;
+  font-size: 2em;
+}
+
+#slogan {
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  font-size: 2.5em;
+}
+
+#quotebutton {
+  font-family: "Roboto Slab", san-serif;
+  text-transform: uppercase;
+  font size: 1.25em;
+}
