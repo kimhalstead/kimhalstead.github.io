@@ -24,30 +24,55 @@ ul {
 } 
 
 p {
+  font-size: 1em;
   
 }
 
 header {
   background: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 nav {
   font-size: 1.5em;
   font-family: Roboto, Helvetica, san-serif;
   background: #E8C66A;
+  border: 1px black solid;
+  padding: 20px;
 }
 
 footer {
   background: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+aside {
+  border: 1px black solid;
+  padding: 20px;
+}
+
+section {
+  border: 1px black solid;
+  padding: 20px;
+}
+
+.wrapper { 
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+
 }
 
 #first {
   background-image: url("../images/herofilter.jpg");
   background-size: auto;
+  background: #FFE2B8;
 }
 
 #second {
-  background: white;
+  background: #FFE2B8;
 }
 
 #introtext {
@@ -68,5 +93,6 @@ footer {
 }
 
 #portrait {
+  background: #FFC675;
 }
 
