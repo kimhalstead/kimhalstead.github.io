@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab:400,700');
+
+body {
+  color: white;
+  font-size: 16px;
+  width: auto;
+}
+
+header {
+    background: white;
+}
+
+nav {
+  width:100%;
+  font-size: 1.5em;
+  font-family: Roboto, Helvetica, san-serif;
+  background: white;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-size: 1em;
+  border-bottom: 3px solid white;
+}
+
+a:hover {
+  color: lightgrey;
+  border-bottom: 3px solid #009874;
+}
+
+nav a {
+  font-size: 23px;
+  display: block;
+  float: left;
+  padding: 1px;
+  margin: 50px;
+  text-transform: uppercase;
+  border-bottom: 3px solid white;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2em;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: Roboto, Helvetica, san-serif;
+  font size: 24px;
+  color: #009874;
+  padding: 30px;
+}
+
+p {
+  font-family: Roboto, Helvetica, san-serif; 
+}
+
+main {
+  clear: both;
+}
+
+footer {
+  padding: 20px;
+}
+
+section {
+}
+
+.wrapper { 
+  max-width: 1200px;
+
+}
+
+.clearfix:after { 
+  visibility: hidden; 
+  display: block; 
+  font-size: 0; 
+  content: " "; 
+  clear: both; 
+  height: 0; 
+} 
+
+
+#first {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), url("../images/herofilter.jpg");
+  max-width: 1200px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#herotext {
+  padding: 30px;
+  margin: auto;
+}
+
+#second {
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#introtext {
+  text-align: center;
+  font-size: 2em;
+}
+
+#center {
+  text-align: center;
+  margin: auto;
+}
+
+#options { 
+  display: inline-block;
+  text-align: left;
+  font-family: "Open Sans", san-serif;
+  font-size: 1em;
+  margin: auto;
+} 
+
+#logo img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slogan {
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  font-size: 2.5em;
+  margin: 2em;
+  text-align: center;
+}
+
+#quotebutton {
+  font-family: "Roboto Slab", san-serif;
+  text-transform: uppercase;
+  font size: 1.25em;
+}
+
+#textblock {
+  margin: 10px;
+  width: 40%;
+  float: left;
+}
+
+#portrait {
+   float:right;
+   width: 46%;
+   background: white;
+}
+
+#portrait img {
+  border-radius: 50%;
+  max-width: 90%;
+  height: auto;
+  padding: 30px;
+}
+
+#floatleft {
+  display: inline-block;
+  width: 46%;
+  float:left;
+  height: 400px;
+}
+
+#floatleft h2 {
+  font-size: 36px;
+  padding: 30 30 10 30px;
+}
+
+#intropara {
+  font-size: 18px;
+  line-height: 2;
+  color: grey;
+  padding: 0 30px;
+}
+
+#chat {
+  font-family: "Open Sans", san-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: right;
+  color: grey;
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+  color: gray;
+}
+
+
+
