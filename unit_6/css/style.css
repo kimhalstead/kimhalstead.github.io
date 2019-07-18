@@ -4,7 +4,53 @@
 body {
   color: white;
   font-size: 16px;
-  width: ;
+  width: auto;
+}
+
+header {
+    background: white;
+}
+
+nav {
+  width:100%;
+  font-size: 1.5em;
+  font-family: Roboto, Helvetica, san-serif;
+  background: white;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-size: 1em;
+  border-bottom: 3px solid white;
+}
+
+a:hover {
+  color: lightgrey;
+  border-bottom: 3px solid #009874;
+}
+
+nav a {
+  font-size: 23px;
+  display: block;
+  float: left;
+  padding: 1px;
+  margin: 50px;
+  text-transform: uppercase;
+  border-bottom: 3px solid white;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 
 h1 {
@@ -15,60 +61,28 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-family: Roboto, Helvetica, san-serif;
-  font size: 1.5em;
+  font size: 24px;
+  color: #009874;
+  padding: 30px;
 }
-
-a {
-  display: block;
-  float:left;
-  padding: 0.3em;
-}
-
-ul { 
-  text-align: left; 
-  font-family: "Open Sans", san-serif;
-  font-size: 1em;
-} 
 
 p {
-  font-size: 1em;
-  
+  font-family: Roboto, Helvetica, san-serif; 
 }
 
-header {
-  background: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-nav {
-  font-size: 1.5em;
-  font-family: Roboto, Helvetica, san-serif;
-  background: #E8C66A;
-  border: 1px black solid;
-  padding: 20px;
+main {
+  clear: both;
 }
 
 footer {
-  background: #FF957E;
-  border: 1px black solid;
-  padding: 20px;
-}
-
-aside {
-  border: 1px black solid;
   padding: 20px;
 }
 
 section {
-  border: 1px black solid;
-  padding: 20px;
 }
 
 .wrapper { 
-  background-color: #FFE2B8;
-  border: 1px black solid;
-  padding: 20px;
+  max-width: 1200px;
 
 }
 
@@ -79,17 +93,27 @@ section {
   content: " "; 
   clear: both; 
   height: 0; 
-}  
+} 
+
 
 #first {
-  background-image: url("../images/herofilter.jpg");
-  background-size: auto;
-  background: #FFE2B8;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), url("../images/herofilter.jpg");
+  max-width: 1200px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#herotext {
+  padding: 30px;
+  margin: auto;
 }
 
 #second {
-  background: #FFE2B8;
-  padding:3px;
+  width: 100%;
+  overflow: auto;
+  margin: auto;
 }
 
 #introtext {
@@ -97,16 +121,33 @@ section {
   font-size: 2em;
 }
 
-#navfloat {
-  margin: ;
-  float:left;
+#center {
+  text-align: center;
+  margin: auto;
+}
 
+#options { 
+  display: inline-block;
+  text-align: left;
+  font-family: "Open Sans", san-serif;
+  font-size: 1em;
+  margin: auto;
+} 
+
+#logo img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #slogan {
   font-family: "Roboto Slab", serif;
   font-style: italic;
   font-size: 2.5em;
+  margin: 2em;
+  text-align: center;
 }
 
 #quotebutton {
@@ -115,7 +156,57 @@ section {
   font size: 1.25em;
 }
 
-#portrait {
-  background: #FFC675;
+#textblock {
+  margin: 10px;
+  width: 40%;
+  float: left;
 }
+
+#portrait {
+   float:right;
+   width: 46%;
+   background: white;
+}
+
+#portrait img {
+  border-radius: 50%;
+  max-width: 90%;
+  height: auto;
+  padding: 30px;
+}
+
+#floatleft {
+  display: inline-block;
+  width: 46%;
+  float:left;
+  height: 400px;
+}
+
+#floatleft h2 {
+  font-size: 36px;
+  padding: 30 30 10 30px;
+}
+
+#intropara {
+  font-size: 18px;
+  line-height: 2;
+  color: grey;
+  padding: 0 30px;
+}
+
+#chat {
+  font-family: "Open Sans", san-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: right;
+  color: grey;
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+  color: gray;
+}
+
+
 
